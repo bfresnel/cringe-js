@@ -16,18 +16,22 @@ rl.question('Change le terme en cringeMode : ', (answer) => {
 });
 
 function formatToCringeMode(texteToFormat, clipboard){
+    let compteur = 0;
     for (let index = 0; index < texteToFormat.length; index++) {
         const element = texteToFormat[index];
         const random = Math.random();
-        if (random >= 0.5){
+        if (random >= 0.5 || compteur >= 2){
             cringe = cringe + element.toUpperCase();
+            compteur = 0;
         } else {
             cringe = cringe + element.toLowerCase();
+            compteur++;
         }
     }
 
     if (clipboard){
         clipboardy.writeSync(cringe);
     }
+    
     return cringe;
 }
