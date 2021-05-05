@@ -1,0 +1,20 @@
+{
+  "name": "cringe-js",
+  "version": "1.0.0",
+  "description": "BECauSe it's CLEaRLY neCeSSarY TO wRITE LIKe THIS",
+  "main": "cringe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfresnel/cringe-js.git"
+  },
+  "keywords": [],
+  "author": "bfresnel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bfresnel/cringe-js/issues"
+  },
+  "homepage": "https://github.com/bfresnel/cringe-js#readme"
+}
