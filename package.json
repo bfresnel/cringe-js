@@ -2,7 +2,7 @@
   "name": "cringe-js",
   "version": "1.0.0",
   "description": "BECauSe it's CLEaRLY neCeSSarY TO wRITE LIKe THIS",
-  "main": "cringe.js",
+  "exports": "./cringe.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,8 +13,12 @@
   "keywords": [],
   "author": "bfresnel",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/bfresnel/cringe-js/issues"
   },
-  "homepage": "https://github.com/bfresnel/cringe-js#readme"
+  "homepage": "https://github.com/bfresnel/cringe-js#readme",
+  "dependencies": {
+    "clipboardy": "^3.0.0"
+  }
 }
