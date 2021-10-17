@@ -1,8 +1,7 @@
-"use strict";
-const clipboardy = require('clipboardy');
-const readline = require('readline');
+import clipboard from 'clipboardy';
+import { createInterface } from 'readline';
 
-const rl = readline.createInterface({
+const rl = createInterface({
     input: process.stdin,
     output: process.stdout
 });
@@ -15,7 +14,7 @@ rl.question('Change le terme en cringeMode : ', (answer) => {
     rl.close();
 });
 
-function formatToCringeMode(texteToFormat, clipboard){
+function formatToCringeMode(texteToFormat, clipboardLocal){
     let compteur = 0;
     for (let index = 0; index < texteToFormat.length; index++) {
         const element = texteToFormat[index];
@@ -29,8 +28,8 @@ function formatToCringeMode(texteToFormat, clipboard){
         }
     }
 
-    if (clipboard){
-        clipboardy.writeSync(cringe);
+    if (clipboardLocal){
+        clipboard.writeSync(cringe);
     }
     
     return cringe;
