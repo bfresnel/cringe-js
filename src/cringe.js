@@ -1,36 +1,27 @@
-import clipboard from 'clipboardy';
-import { createInterface } from 'readline';
+//import clipboard from 'clipboardy';
 
-const rl = createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
-
-let bite = 'Change le terme en cringeMode : '
-let cringe = '';
-
-rl.question('Change le terme en cringeMode : ', (answer) => {
-    formatToCringeMode(answer, true);
-    rl.close();
-});
-
-function formatToCringeMode(texteToFormat, clipboardLocal){
+function formatToCringeMode(inputIDToCringify) {
+    let cringeLocal = '';
+    let cringifyAreaText = document.getElementById(inputIDToCringify).value;
+    let cringifiedText = document.getElementById('cringifiedText');
+    console.log({ cringifyAreaText });
+    console.log({ cringifiedText });
     let compteur = 0;
-    for (let index = 0; index < texteToFormat.length; index++) {
-        const element = texteToFormat[index];
+    for (let index = 0; index < cringifyAreaText.length; index++) {
+        const element = cringifyAreaText[index];
         const random = Math.random();
-        if (random >= 0.5 || compteur >= 2){
-            cringe = cringe + element.toUpperCase();
+        if (random >= 0.5 || compteur >= 2) {
+            cringeLocal = cringeLocal + element.toUpperCase();
             compteur = 0;
         } else {
-            cringe = cringe + element.toLowerCase();
+            cringeLocal = cringeLocal + element.toLowerCase();
             compteur++;
         }
     }
 
-    if (clipboardLocal){
-        clipboard.writeSync(cringe);
-    }
-    
-    return cringe;
+    // if (clipboardLocal) {
+    //     clipboard.writeSync(cringe);
+    // }
+
+    cringifiedText.value = cringeLocal;
 }
