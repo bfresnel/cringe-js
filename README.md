@@ -1,5 +1,7 @@
 # cringe-js
 
+[![CodeQL](https://github.com/bfresnel/cringe-js/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/bfresnel/cringe-js/actions/workflows/codeql-analysis.yml)
+
 ## Requirements
 * Visual Studio Code
 * node LTS version
