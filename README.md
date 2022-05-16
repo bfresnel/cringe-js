@@ -9,6 +9,21 @@
 
 ## How to run the project
 * clone the project
-* go in the project folder
-* run ```npm install``` or ```npm ci```
-* then run ```npm run start```
+
+```sh
+$ git clone https://github.com/bfresnel/cringe-js.git
+$ cd ./cringe-js
+```
+
+* Install all dependencies
+
+```sh
+$ npm run install
+or
+$ npm run ci
+```
+* Run the project
+
+```sh
+$ npm run start
+```
