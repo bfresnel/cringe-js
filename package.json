@@ -1,11 +1,7 @@
 {
   "name": "cringe-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "BECauSe it's CLEaRLY neCeSSarY TO wRITE LIKe THIS",
-  "main": "./src/main.js",
-  "scripts": {
-    "start": "electron ."
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bfresnel/cringe-js.git"
@@ -20,7 +16,5 @@
   "dependencies": {
     "clipboardy": "^3.0.0"
   },
-  "devDependencies": {
-    "electron": "^18.3.7"
-  }
+  "devDependencies": {}
 }
