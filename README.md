@@ -1,29 +1,13 @@
-# cringe-js
+# 🙌 CRInGE-jS 🙌
 
-[![CodeQL](https://github.com/bfresnel/cringe-js/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/bfresnel/cringe-js/actions/workflows/codeql-analysis.yml)
+😤 oNe dAy, This pROjECT WiLL DOmINATe THe world 😤.... HOWeVeR, thERe is A NEW FraMewOrK i Need TO TEst BEFOre 👨‍💻 ...
 
-## Requirements
-* Visual Studio Code
-* node LTS version
-* npm
-
-## How to run the project
-* clone the project
+##  🤓 HOW To RUN THe PROJECT 🤓
+* cLonE ThE ProJect
 
 ```sh
 $ git clone https://github.com/bfresnel/cringe-js.git
 $ cd ./cringe-js
 ```
 
-* Install all dependencies
-
-```sh
-$ npm run install
-or
-$ npm run ci
-```
-* Run the project
-
-```sh
-$ npm run start
-```
+👉 dOn't FORgET to Leave a StAR 🌟✌️
