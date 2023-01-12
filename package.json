@@ -1,6 +1,6 @@
 {
   "name": "cringe-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "BECauSe it's CLEaRLY neCeSSarY TO wRITE LIKe THIS",
   "repository": {
     "type": "git",
@@ -12,9 +12,5 @@
   "bugs": {
     "url": "https://github.com/bfresnel/cringe-js/issues"
   },
-  "homepage": "https://github.com/bfresnel/cringe-js#readme",
-  "dependencies": {
-    "clipboardy": "^3.0.0"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/bfresnel/cringe-js#readme"
 }
